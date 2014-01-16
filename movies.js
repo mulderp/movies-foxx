@@ -5,8 +5,14 @@ var internal = require('internal');
 var _ = require('underscore');
 var db = require("org/arangodb").db;
 
-var routes = require('routes').routes;
+var Movies = require("./repositories/movies").Repository;
+var Movie = require("./models/movie").Model;
+var movies = new Movies(controller.collection("movies"), {
+  model: Movie
+});
 
 app.get("/movies", function(req, res) {
+  res.json([1,2,3]);
 });
+
 
