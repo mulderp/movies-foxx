@@ -1,0 +1,19 @@
+[{"id": 12, "title": "The Artist", "rating": 0,
+    "description": "A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.", "genres": ["Drama", "Comedy"], "director": "Michel Hazanavicius", "year": 2009},
+  {
+    "id": 5,
+    "genres": ["Drama", "Action"], "title": "Taxi Driver", "rating": 0, "description": "The film is set in New York, shortly after the end of the Vietnam War.  Travis Bickle, a lonely and mentally unstable veteran starts working as a taxi driver, joining the murky city night life.", "director": "Martin Scorsese", "year": 1974 },
+  { "title": "La Dolce Vita", "rating": 0,
+    "id": 7, "genres": ["Drama"], "description": "The film is a story of a passive journalist's week in Rome, and his search for both happiness and love that will never come.", "director": "Federico Fellini", "year": 1960
+},
+  {"title": "Pirates of the Caribbean: At World's End", "rating": 0,
+    "id": 3, "director": "Gore Verbinski",
+    "year": 2007, "genres": ["Action", "Adventure", "Fantasy"],
+    "description": "To control the oceans, Lord Cutler Beckett kills anyone associated with piracy and uses Davy Jones to destroy all pirate ships on the seas. Condemned prisoners sing 'Hoist the Colours' to compel the nine pirate lords to convene at Shipwreck Cove; however, the late Captain Jack Sparrow, pirate lord of the Caribbean, never appointed a successor. Captain Barbossa leads Will, Elizabeth, Tia Dalma and the crew of the Black Pearl to rescue Jack from Davy Jones's Locker..", 
+    "length": 169},
+    {"title": "Harry Potter and the Order of the Phoenix", "rating": 0,
+      "id": 4, "director": "David Yates",
+      "year": 2007, "genres": ["Adventure", "Family", "Fantasy"],
+      "description": "The Order of the Phoenix, a secret organisation founded by Albus Dumbledore, inform the now 15-year-old Harry Potter that the Ministry of Magic is in denial of Lord Voldemort's return; under the Ministry's influence, The Daily Prophet has launched a smear campaign against Harry and Dumbledore due to Harry's supposed encounter with Voldemort at the end of the previous year. This encounter has had a huge psychological effect on Harry – he has nightmares not only about what happened in the graveyard but also about the Department of Mysteries at the Ministry of Magic. While at the Order's headquarters, 12 Grimmauld Place, Harry's godfather, Sirius Black, mentions that Voldemort is after an object which he didn't have last time.", 
+      "length": 138
+}]

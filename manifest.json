@@ -1,0 +1,8 @@
+{
+  "name": "movies-api",
+  "version": "0.0.1",
+  "author": "Patrick Mulder",
+  "controllers": {
+    "/": "movies.js"
+  }
+}
