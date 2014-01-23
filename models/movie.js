@@ -8,7 +8,6 @@
     attributes: {
       description: "string",
       title: "string",
-      [...]
     }
   });
   exports.Model = Movie;
