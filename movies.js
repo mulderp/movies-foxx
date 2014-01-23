@@ -11,8 +11,10 @@ var movies = new Movies(app.collection("movies"), {
   model: Movie
 });
 
-app.get("/movies", function(req, res) {
-  res.json([1,2,3]);
+app.get("/all", function(req, res) {
+  res.json(_.map(movies.allMovies(), function (movie) {
+    return movie.forClient();
+  }));
 });
 
 
