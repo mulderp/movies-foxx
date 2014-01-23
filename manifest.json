@@ -4,5 +4,6 @@
   "author": "Patrick Mulder",
   "controllers": {
     "/movies-api": "movies.js"
-  }
+  },
+  "lib": "."
 }
