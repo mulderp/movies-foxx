@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Patrick Mulder",
   "controllers": {
-    "/movies-api": "movies.js"
+    "/movies": "movies.js"
   },
   "lib": "."
 }
