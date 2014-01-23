@@ -1,15 +1,21 @@
 (function () {
   "use strict";
   var _ = require("underscore"),
+  console = require("console"),
     Foxx = require("org/arangodb/foxx"),
     Movies;
+    
+var internal = require('internal');
+
+  var _ = require("underscore");
+  internal.print("*****");
 
   Movies = Foxx.Repository.extend({
    
     allMovies: function() {
     	return this.collection.toArray()
     		.map(function(m) {
-    			return new this.modelPrototyp(m);
+    			return new this.modelPrototype(m);
     		}, this);
     },
     
