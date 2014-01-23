@@ -7,7 +7,7 @@ var db = require("org/arangodb").db;
 
 var Movies = require("./repositories/movies").Repository;
 var Movie = require("./models/movie").Model;
-var movies = new Movies(controller.collection("movies"), {
+var movies = new Movies(app.collection("movies"), {
   model: Movie
 });
 
