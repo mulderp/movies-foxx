@@ -17,4 +17,14 @@ app.get("/all", function(req, res) {
   }));
 });
 
+app.put("/:id", function(req, res) {
+  var id = req.params("id"),
+      vote = req.params("vote");
+
+    res.json(movies.addVote(id, vote, 0));
+  }).pathParam("id", {
+    description: "The id of a Movie",
+    type: "integer"
+  }).bodyParam("vote", "The vote of a user", Movie);
+
 
