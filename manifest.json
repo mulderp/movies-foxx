@@ -1,7 +1,7 @@
 {
-  "name": "movies-api",
+  "name": "cinema",
   "version": "0.0.1",
-  "author": "Patrick Mulder",
+  "author": "Patrick Mulder, Michael Hackstein",
   "controllers": {
     "/movies": "movies.js"
   },
