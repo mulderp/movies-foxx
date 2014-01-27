@@ -24,7 +24,7 @@ app.put("/:id", function(req, res) {
     res.json(movies.addVote(id, vote, 0));
   }).pathParam("id", {
     description: "The id of a Movie",
-    type: "integer"
+    type: "int"
   }).bodyParam("vote", "The vote of a user", Movie);
 
 
